@@ -7,6 +7,8 @@ Combining this with software for stream backups gives all the necessary info to 
 
 Note: This is pretty heavily inspired from other projects. Nothing novel here.
 
+Note: This will just stay connected. Currently will need to kill this if you want to end it after a stream
+
 # Setup
 
 Create an OAuth token to authenticate with Twitch IRC by visiting here: https://twitchapps.com/tmi/

@@ -43,7 +43,8 @@ while True:
         sock.send("PONG\n".encode('utf-8'))
 
     elif len(response) > 0:
-        logging.info(response)
+        cleaned_response = demojize(response)
+        logging.info(cleaned_response)
         if is_verbose:
-            print(f"{response}\n")
+            print(f"{cleaned_response}\n")
 

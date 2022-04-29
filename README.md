@@ -11,9 +11,10 @@ Note: This is pretty heavily inspired from other projects. Nothing novel here.
 
 Create an OAuth token to authenticate with Twitch IRC by visiting here: https://twitchapps.com/tmi/
 
-Create a `.env` file and add the OAuth Token into it:
+Create a `.env` file and add the OAuth Token and associated Twitch handle into it:
 
     twitch_token = 'oauth:TheTokenValueShouldGoRightHere'
+    twitch_user  = 'SomeUserGoesHere'
 
 # Usage
     usage: twitch-chat-logger.py [-h] [-o OUTPUT] [-q] -c CHANNEL
